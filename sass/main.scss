@@ -280,7 +280,19 @@ a {
 }
 
 @media (max-width: 1399px) {
-
+    .middle-area {
+        .logo {
+            width: 20%;
+            margin: 0rem 0rem 3rem 0rem;
+        }
+        .search-area {
+            width: 60%;
+            margin: 0rem 0rem 3rem 0rem;
+            input {
+                width: 100%;
+            }
+        }
+    }
 }
 
 @media (min-width: 1400px) {
@@ -386,6 +398,19 @@ a {
             h1 {
                 font-size: 4rem;
                 line-height: 4rem;
+            }
+        }
+        .middle-area {
+            .search-area {
+                margin: inherit;
+                margin-bottom: 2rem;
+            }
+            .logo img {
+                max-width: 15rem;
+                margin-bottom: 0rem;
+            }
+            .logo {
+                margin-bottom: 2rem;
             }
         }
 }
@@ -552,6 +577,34 @@ a {
 @media screen and (max-width: 767px) {
     .dropdown-menu.show {
         display: block;
+    }
+    .middle-area {
+        .logo {
+            margin-bottom: 0rem;
+        }
+        .cart-area {
+            .shopping-cart {
+                margin-left: 1.2rem;
+            }
+            a {
+                span {
+                    right: inherit;
+                    left: -16px;
+                }
+            }
+        }
+        .search-area {
+            width: 100%;
+            margin-top: 2rem;
+            margin-bottom: 0rem;
+            input {
+                width: 100%;
+            }
+        }
+        .logo img {
+            max-width: 10rem;
+            margin-bottom: 0rem;
+        }
     }
 }
 
