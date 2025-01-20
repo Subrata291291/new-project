@@ -259,6 +259,19 @@ a {
   margin-bottom: 0rem !important;
 }
 
+@media (max-width: 1399px) {
+  .middle-area .logo {
+    width: 20%;
+    margin: 0rem 0rem 3rem 0rem;
+  }
+  .middle-area .search-area {
+    width: 60%;
+    margin: 0rem 0rem 3rem 0rem;
+  }
+  .middle-area .search-area input {
+    width: 100%;
+  }
+}
 @media (min-width: 1600px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 1440px;
@@ -351,6 +364,17 @@ a {
   .common-banner h1 {
     font-size: 4rem;
     line-height: 4rem;
+  }
+  .middle-area .search-area {
+    margin: inherit;
+    margin-bottom: 2rem;
+  }
+  .middle-area .logo img {
+    max-width: 15rem;
+    margin-bottom: 0rem;
+  }
+  .middle-area .logo {
+    margin-bottom: 2rem;
   }
 }
 @media screen and (min-width: 992px) {
@@ -479,5 +503,27 @@ a {
 @media screen and (max-width: 767px) {
   .dropdown-menu.show {
     display: block;
+  }
+  .middle-area .logo {
+    margin-bottom: 0rem;
+  }
+  .middle-area .cart-area .shopping-cart {
+    margin-left: 1.2rem;
+  }
+  .middle-area .cart-area a span {
+    right: inherit;
+    left: -16px;
+  }
+  .middle-area .search-area {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
+  .middle-area .search-area input {
+    width: 100%;
+  }
+  .middle-area .logo img {
+    max-width: 10rem;
+    margin-bottom: 0rem;
   }
 }/*# sourceMappingURL=main.css.map */
