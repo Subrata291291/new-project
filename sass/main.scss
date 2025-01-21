@@ -56,6 +56,9 @@ a {
 .slick-slide img {
     display: inherit !important;
 }
+.p-70 {
+    padding: 7rem 0rem;
+}
 .p-100 {
     padding: 10rem 0rem;
 }
@@ -261,11 +264,11 @@ a {
 /* Banner Area*/
 .banner-area {
     .banner_slider {
-        position: relative;
         .slider {
             background: url(../images/banner.png);
             padding: 16.7rem 0rem 10.8rem;
             @include banner-prop;
+            position: relative !important;
             .banner-left {
                 position: relative;
                 h2 {
@@ -298,25 +301,81 @@ a {
             }
             .banner-right {
                 float: right;
+                position: relative;
                 img {
                     max-width: 72.6rem;
                 }
             }
         }
+        .slider:before {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: -0;
+            width: 80rem;
+            bottom: 0;
+            background: transparent linear-gradient(87deg, #FFDFC3 0%, rgba(250, 203, 165, 0) 100%) 0% 0% no-repeat;
+        }
+        .slick-dots {
+            bottom: 2.5rem;
+            .slick-active {
+                button {
+                    background-color: #fff;
+                }
+            }
+            li {
+                margin: 0rem 2rem;
+                height: 0;
+                button {
+                    font-size: 0;
+                    width: 50px;
+                    height: 3px;
+                    padding: 1px;
+                    background: #000;
+                    margin: 0 auto;
+                    border-radius: 5px;
+                }
+            }
+        }
+        .slick-dots li button:before {
+            display: none;
+        }
     }
 }
-.banner_slider:before {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: -0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    background: transparent linear-gradient(120deg, #FFDFC3 0%, #FACBA500 100%) 0% 0% no-repeat;
+
+/* Banner Area*/
+
+/* Category Area*/
+.category-area {
+    .category_slider {
+        .slider {
+            text-align: center;
+            .cat-pic {
+                width: 20rem;
+                height: 20rem;
+                border: 4px solid var(--ss-primary);
+                padding: 4.6rem 4.1rem;
+                border-radius: 50%;
+                margin-bottom: 2.4rem;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            h4 {
+                font-size: 1.7rem;
+                line-height: 2.4rem;
+                font-weight: 600;
+            }
+            a {
+                font-size: 1.3rem;
+                line-height: 1.9rem;
+                font-weight: 600;
+                color: var(--ss-primary);
+                text-transform: uppercase;
+                text-decoration: underline;
+            }
+        }
+    }
 }
-
-
 
 
 
@@ -423,7 +482,7 @@ a {
         transform-origin: top;
         transition: all 300ms ease-in-out 0s;
         display: flex !important;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         top: 100%;
         left: 0;

@@ -40,15 +40,15 @@
 });
 
    // Class slider js
- $(".class_slider").slick({
-  dots: true,
+ $(".category_slider").slick({
+  dots: false,
   infinite: true,
-  centerMode: true,
-  centerPadding: '0px',
+  centerMode: false,
+  // centerPadding: '0px',
   arrows: false,
-  autoplay: true,
+  autoplay: false,
   fade: false,
-  slidesToShow: 3,
+  slidesToShow: 5,
   slidesToScroll: 1,
   responsive: [{
       breakpoint: 1399,
@@ -64,7 +64,7 @@
       settings: {
         dots: true,
         arrows: false,
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
       }
@@ -72,7 +72,7 @@
     {
       breakpoint: 767,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 3,
         dots: true,
         arrows: false,
         slidesToScroll: 1
