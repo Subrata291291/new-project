@@ -1,9 +1,9 @@
  // Product slider js
  $(".banner_slider").slick({
-  dots: false,
+  dots: true,
   infinite: true,
-  arrows: true,
-  autoplay: true,
+  arrows: false,
+  autoplay: false,
   fade: false,
   slidesToShow: 1,
   slidesToScroll: 1,

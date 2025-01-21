@@ -26,6 +26,7 @@
 @mixin banner-prop {
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 @mixin title-prop {
     font-size: 1.8rem;
