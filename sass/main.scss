@@ -254,63 +254,7 @@ a {
 }
 /* Header Area*/
 
-/* Banner Area*/
-.banner-area {
-    .banner_slider {
-        position: relative;
-        .slider {
-            background: url(../images/banner.png);
-            padding: 16.7rem 0rem 10.8rem;
-            @include banner-prop;
-            .banner-left {
-                position: relative;
-                h2 {
-                    font-size: 6.6rem;
-                    line-height: 9.6rem;
-                    font-weight: bold;
-                }
-                h3 {
-                    font-size: 4.5rem;
-                    line-height: 6.5rem;
-                    font-weight: 600;
-                }
-                h4 {
-                    font-size: 3rem;
-                    line-height: 4.4rem;
-                    font-weight: 600;
-                }
-                button {
-                    @include btn-prop;
-                    width: 17.5rem;
-                    height: 6rem;
-                    font-size: 2rem;
-                    border: none;
-                    font-weight: normal;
-                    margin-top: 2rem;
-                }
-                button:hover {
-                    @include btn-prop-hover;
-                }
-            }
-            .banner-right {
-                float: right;
-                img {
-                    max-width: 72.6rem;
-                }
-            }
-        }
-    }
-}
-.banner_slider:before {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: -0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    background: transparent linear-gradient(120deg, #FFDFC3 0%, #FACBA500 100%) 0% 0% no-repeat;
-}
+
 
 
 
