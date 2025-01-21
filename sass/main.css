@@ -92,6 +92,38 @@ a {
   margin-bottom: 0rem !important;
 }
 
+.title-box ul li h2 {
+  font-size: 3rem;
+  line-height: 4.4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.title-box ul li button {
+  background: linear-gradient(113deg, #fff 50%, #0082C8 0);
+  border: none;
+  background-position: calc(100% + 2px) -2px;
+  background-repeat: no-repeat;
+  background-size: calc(220% + 4px) calc(100% + 4px);
+  transition: background 0.2s ease-in-out;
+  border-radius: 0;
+  border: 1px solid var(--ss-primary);
+  white-space: nowrap;
+  color: #fff;
+  overflow: hidden;
+  width: 12.3rem;
+  height: 4.3rem;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.title-box ul li button:hover {
+  color: #0a0a0a;
+  box-shadow: none;
+  outline: none;
+  background-position: 50% -2px;
+}
+
 /*shrink*/
 .shrink {
   position: fixed;
@@ -387,6 +419,48 @@ a {
   color: var(--ss-primary);
   text-transform: uppercase;
   text-decoration: underline;
+}
+
+/* Category Area*/
+/* Best Seller Area*/
+.best-seller-area .best_product_slider {
+  margin-top: 3.3rem;
+}
+.best-seller-area .best_product_slider .slider {
+  margin: 0rem 1.6rem;
+}
+.best-seller-area .best_product_slider .product-pic {
+  padding: 6.7rem 3.4rem;
+  border: 1px solid #D0D0D0;
+  margin-bottom: 2.4rem;
+}
+.best-seller-area .best_product_slider .product-pic img {
+  width: 23.8rem;
+  height: 23.8rem;
+}
+.best-seller-area .best_product_slider .product-content ul li i {
+  width: 1.8rem;
+  height: 1.68rem;
+  color: #E8B52B;
+  font-weight: 600;
+}
+.best-seller-area .best_product_slider .product-content h4 {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  margin: 1.2rem 0rem 1.1rem;
+  font-weight: 500;
+}
+.best-seller-area .best_product_slider .product-content p {
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  margin: 0rem 0rem 1.1rem;
+  font-weight: 400;
+  color: #000;
+}
+.best-seller-area .best_product_slider .product-content h5 {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  font-weight: 600;
 }
 
 /*Min Width*/

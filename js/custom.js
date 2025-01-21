@@ -82,13 +82,14 @@
 });
 
    // Class slider js
-   $(".review_slider").slick({
-    dots: true,
+   $(".best_product_slider").slick({
+    dots: false,
     infinite: true,
     arrows: false,
-    autoplay: true,
+    autoplay: false,
+    // centerMode: true,
     fade: false,
-    slidesToShow: 1,
+    slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [{
         breakpoint: 1399,
@@ -104,7 +105,7 @@
         settings: {
           dots: true,
           arrows: false,
-          slidesToShow: 1,
+          slidesToShow: 4,
           slidesToScroll: 1,
           infinite: true,
         }
@@ -112,7 +113,7 @@
       {
         breakpoint: 767,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           dots: true,
           arrows: false,
           slidesToScroll: 1
