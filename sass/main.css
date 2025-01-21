@@ -258,13 +258,7 @@ a {
   margin: 0;
 }
 
-<<<<<<< HEAD
 /* Header Area*/
-=======
-.slick-dotted.slick-slider {
-  margin-bottom: 0rem !important;
-}
-
 /* Banner Area*/
 .banner-area .banner_slider {
   position: relative;
@@ -274,6 +268,7 @@ a {
   padding: 16.7rem 0rem 10.8rem;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .banner-area .banner_slider .slider .banner-left {
   position: relative;
@@ -342,7 +337,6 @@ a {
   background: transparent linear-gradient(120deg, #FFDFC3 0%, rgba(250, 203, 165, 0) 100%) 0% 0% no-repeat;
 }
 
->>>>>>> designing
 /*Min Width*/
 @media screen and (min-width: 992px) {
   .navbar-nav li:hover > ul.dropdown-menu {
