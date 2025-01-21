@@ -120,11 +120,16 @@ a {
     vertical-align: middle;
     border: none;
 }
-
+.navbar-expand-md {
+    position: inherit;
+}
 .navbar-brand {
     img {
         max-width: 12rem;
     }
+}
+.navbar-expand-md {
+    position: inherit;
 }
 .top-bar {
     background-color: #000;
@@ -250,6 +255,7 @@ a {
 }
 .header-area {
     padding: 1.8rem 0rem;
+    position: relative;
     z-index: 9999;
     background-color:var(--ss-primary);
 }
@@ -460,7 +466,7 @@ a {
 /*Min Width*/
 @media screen and (min-width: 992px) {
     .navbar-nav li:hover > ul.dropdown-menu {
-        top: 173%;
+        top: 100%;
         transform: scale(1, 1);
         padding: 0;
     }
