@@ -19,7 +19,7 @@
     {
       breakpoint: 991,
       settings: {
-        dots: false,
+        dots: true,
         arrows: false,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -72,7 +72,7 @@
     {
       breakpoint: 767,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 2,
         dots: true,
         arrows: false,
         slidesToScroll: 1
