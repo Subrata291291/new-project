@@ -691,6 +691,34 @@ a {
 }
 
 /* Panorama Area*/
+.exceptional-area {
+  background-color: var(--ss-primary);
+  padding: 5rem 0rem;
+}
+.exceptional-area li {
+  text-align: center;
+  color: #fff;
+}
+.exceptional-area li img {
+  max-width: 6.7rem;
+  max-height: 6.7rem;
+  margin: 0 auto;
+}
+.exceptional-area li h3 {
+  font-size: 2rem;
+  line-height: 2.9rem;
+  text-transform: uppercase;
+  margin: 2.8rem 0rem 1.2rem;
+}
+.exceptional-area li p {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  max-width: 27.3rem;
+  color: #fff;
+  margin: 0 auto;
+  font-weight: 300;
+}
+
 /*Min Width*/
 @media screen and (min-width: 992px) {
   .navbar-nav li:hover > ul.dropdown-menu {
@@ -869,6 +897,19 @@ a {
     width: auto;
     height: auto;
   }
+  .exceptional-area li {
+    border: 1px solid;
+    color: #fff;
+    padding: 1rem;
+    margin: 0rem 1rem;
+    height: 30rem;
+  }
+  .exceptional-area li h3 {
+    font-size: 1.5rem;
+  }
+  .exceptional-area li p {
+    max-width: 18rem;
+  }
 }
 @media (max-width: 1199px) {
   .navbar-nav .nav-item .nav-link {
@@ -1009,6 +1050,9 @@ a {
     font-size: 4rem;
     line-height: 4rem;
   }
+  .header-area {
+    padding: 0rem;
+  }
   .middle-area .search-area {
     margin: inherit;
     margin-bottom: 2rem;
@@ -1071,9 +1115,15 @@ a {
   .panorama-area .panorama-left .panorama-text {
     width: 4.5rem;
   }
+  .panorama-area .panorama_slider {
+    margin-bottom: 1rem;
+  }
   .panorama-area .panorama_slider .product-pic .hover-box li button {
     font-size: 1rem;
     height: 3rem;
+  }
+  .exceptional-area li {
+    height: 35rem;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1091,6 +1141,9 @@ a {
   }
   .dropdown-menu li a img {
     max-width: 10rem;
+  }
+  .header-area {
+    padding: 2rem 0rem;
   }
   .middle-area .logo {
     margin-bottom: 0rem;
@@ -1116,6 +1169,12 @@ a {
   }
   .banner-area .banner_slider .slick-dots {
     bottom: 3.5rem;
+  }
+  .banner-area .banner_slider .slick-dots li {
+    margin: 0rem 3rem 0rem 1rem;
+  }
+  .banner-area .banner_slider .slick-dots li button {
+    width: 4rem;
   }
   .banner-area .banner_slider .slider {
     padding: 5.5rem 0rem 10rem;
@@ -1168,11 +1227,21 @@ a {
   .panorama-area .panorama-left img {
     max-width: inherit;
   }
+  .panorama-area .panorama_slider .slick-dots {
+    bottom: -4rem;
+    text-align: center;
+  }
+  .panorama-area .panorama_slider .slick-dots li {
+    margin: 0rem 2rem 0rem 2rem;
+  }
   .panorama-area .panorama_slider .product-pic {
     padding: 3rem 1rem;
   }
   .panorama-area .panorama_slider .product-pic .hover-box li button {
     font-size: 0.8rem;
+  }
+  .exceptional-area li {
+    height: auto;
   }
 }
 @media (max-width: 575px) {

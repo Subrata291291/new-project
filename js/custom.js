@@ -164,7 +164,7 @@
           breakpoint: 575,
           settings: {
             slidesToShow: 2,
-            dots: false,
+            dots: true,
             autoplay: true,
             arrows: false,
             slidesToScroll: 1

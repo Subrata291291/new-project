@@ -698,11 +698,35 @@ a {
         }
     }
 }
-
-
-
 /* Panorama Area*/
 
+.exceptional-area {
+    background-color: var(--ss-primary);
+    padding: 5rem 0rem;
+    li {
+        text-align: center;
+        color: #fff;
+        img {
+            max-width: 6.7rem;
+            max-height: 6.7rem;
+            margin: 0 auto;
+        }
+        h3 {
+            font-size: 2rem;
+            line-height: 2.9rem;
+            text-transform: uppercase;
+            margin: 2.8rem 0rem 1.2rem;
+        }
+        p {
+            font-size: 1.5rem;
+            line-height: 2.2rem;
+            max-width: 27.3rem;
+            color: #fff;
+            margin: 0 auto;
+            font-weight: 300;
+        }
+    }
+}
 
 
 
@@ -952,6 +976,21 @@ a {
             }
         }
     }
+    .exceptional-area {
+        li {
+            border: 1px solid;
+            color: #fff;
+            padding: 1rem;
+            margin: 0rem 1rem;
+            height: 30rem;
+            h3 {
+                font-size: 1.5rem;
+            }
+            p {
+                max-width: 18rem;
+            }
+        }
+    }
 }
 @media (max-width: 1199px) {
     .navbar-nav {
@@ -1099,6 +1138,9 @@ a {
                 line-height: 4rem;
             }
         }
+        .header-area {
+            padding: 0rem;
+        }
         .middle-area {
             .search-area {
                 margin: inherit;
@@ -1179,6 +1221,7 @@ a {
                 }
             }
             .panorama_slider {
+                margin-bottom: 1rem;
                 .product-pic {
                     .hover-box {
                         li {
@@ -1189,6 +1232,11 @@ a {
                         }
                     }
                 }
+            }
+        }
+        .exceptional-area {
+            li {
+                height: 35rem;
             }
         }
 }
@@ -1216,6 +1264,9 @@ a {
                 }
             }
         }
+    }
+    .header-area {
+        padding: 2rem 0rem;
     }
     .middle-area {
         .logo {
@@ -1249,6 +1300,12 @@ a {
         .banner_slider {
             .slick-dots {
                 bottom: 3.5rem;
+                li {
+                    margin: 0rem 3rem 0rem 1rem;
+                    button {
+                        width: 4rem;
+                    }
+                }
             }
             .slider {
                 padding: 5.5rem 0rem 10rem;
@@ -1321,6 +1378,13 @@ a {
             }
         }
         .panorama_slider {
+            .slick-dots {
+                bottom: -4rem;
+                text-align: center;
+                li {
+                    margin: 0rem 2rem 0rem 2rem;
+                }
+            }
             .product-pic {
                 padding: 3rem 1rem;
                 .hover-box {
@@ -1331,6 +1395,11 @@ a {
                     }
                 }
             }
+        }
+    }
+    .exceptional-area {
+        li {
+            height: auto;
         }
     }
 }
