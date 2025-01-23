@@ -531,7 +531,7 @@ a {
             position: absolute;
             top: 0;
             bottom: 0;
-            right: 0rem;
+            right: 2.5rem;
             width: 6.5rem;
             background-color: var(--ss-secondary);
             flex-direction: column;
@@ -543,6 +543,7 @@ a {
         }
         img {
             max-width: 45.4rem;
+            width: 100%;
         }
         .break-all {
             word-break: break-all;
@@ -910,6 +911,11 @@ a {
             img {
                 width: 100%;
             }
+            .panorama-text {
+                right: 0;
+                font-size: 2rem;
+                line-height: 2.5rem;
+            }
         }
         .panorama_slider {
             margin-top: 2rem;
@@ -1142,6 +1148,11 @@ a {
             }
         }
         .panorama-area {
+            .panorama-left {
+                .panorama-text {
+                    width: 4.5rem;
+                }
+            }
             .panorama_slider {
                 .product-pic {
                     .hover-box {
@@ -1274,6 +1285,16 @@ a {
         }
     }
     .panorama-area {
+        .panorama-left {
+            .panorama-text {
+                line-height: 15px;
+                width: 4.5rem;
+                font-size: 1rem;
+            }
+            img {
+                max-width: inherit;
+            }
+        }
         .panorama_slider {
             .product-pic {
                 padding: 3rem 1rem;
@@ -1287,6 +1308,11 @@ a {
         padding: 4rem 0rem;
         .panorama-left {
             text-align: center;
+            .panorama-text {
+                line-height: 2.5rem;
+                width: 4.5rem;
+                font-size: 1.4rem;
+            }
         }
         .panorama_slider {
             .slick-slide {

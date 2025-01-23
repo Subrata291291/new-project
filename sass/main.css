@@ -546,7 +546,7 @@ a {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0rem;
+  right: 2.5rem;
   width: 6.5rem;
   background-color: var(--ss-secondary);
   flex-direction: column;
@@ -558,6 +558,7 @@ a {
 }
 .panorama-area .panorama-left img {
   max-width: 45.4rem;
+  width: 100%;
 }
 .panorama-area .panorama-left .break-all {
   word-break: break-all;
@@ -833,6 +834,11 @@ a {
   .panorama-area .panorama-left img {
     width: 100%;
   }
+  .panorama-area .panorama-left .panorama-text {
+    right: 0;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
   .panorama-area .panorama_slider {
     margin-top: 2rem;
   }
@@ -1039,6 +1045,9 @@ a {
     height: 3rem;
     font-size: 1.3rem;
   }
+  .panorama-area .panorama-left .panorama-text {
+    width: 4.5rem;
+  }
   .panorama-area .panorama_slider .product-pic .hover-box li button {
     font-size: 1rem;
     height: 3rem;
@@ -1128,6 +1137,14 @@ a {
   .best-seller-area .best_product_slider .product-pic .hover-box li button {
     font-size: 0.9rem;
   }
+  .panorama-area .panorama-left .panorama-text {
+    line-height: 15px;
+    width: 4.5rem;
+    font-size: 1rem;
+  }
+  .panorama-area .panorama-left img {
+    max-width: inherit;
+  }
   .panorama-area .panorama_slider .product-pic {
     padding: 3rem 1rem;
   }
@@ -1138,6 +1155,11 @@ a {
   }
   .panorama-area .panorama-left {
     text-align: center;
+  }
+  .panorama-area .panorama-left .panorama-text {
+    line-height: 2.5rem;
+    width: 4.5rem;
+    font-size: 1.4rem;
   }
   .panorama-area .panorama_slider .slick-slide {
     margin-right: 5rem;
