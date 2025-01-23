@@ -95,7 +95,7 @@
         breakpoint: 1399,
         settings: {
           dots: true,
-          slidesToShow: 1,
+          slidesToShow: 4,
           slidesToScroll: 1,
           infinite: true,
         }
@@ -105,7 +105,7 @@
         settings: {
           dots: true,
           arrows: false,
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
         }
@@ -123,19 +123,22 @@
   });
 
      // Class slider js
-     $(".sponsored_slider").slick({
+     $(".panorama_slider").slick({
       dots: false,
       infinite: true,
+      // centerMode: true,
+      // centerPadding: '80px',
+      speed: 300,
       arrows: false,
-      autoplay: true,
+      autoplay: false,
       fade: false,
-      slidesToShow: 3,
+      slidesToShow: 2,
       slidesToScroll: 1,
       responsive: [{
           breakpoint: 1399,
           settings: {
             dots: true,
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
             infinite: true,
           }
@@ -145,7 +148,7 @@
           settings: {
             dots: true,
             arrows: false,
-            slidesToShow: 4,
+            slidesToShow: 2,
             slidesToScroll: 1,
             infinite: true,
           }
@@ -153,8 +156,18 @@
         {
           breakpoint: 767,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             dots: true,
+            arrows: false,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            slidesToShow: 3,
+            dots: false,
+            autoplay: true,
             arrows: false,
             slidesToScroll: 1
           }
