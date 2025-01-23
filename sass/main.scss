@@ -700,6 +700,7 @@ a {
 }
 /* Panorama Area*/
 
+/* exceptional Area*/
 .exceptional-area {
     background-color: var(--ss-primary);
     padding: 5rem 0rem;
@@ -727,9 +728,32 @@ a {
         }
     }
 }
+/* exceptional Area*/
 
-
-
+/* expertise Area*/
+.expertise-area {
+    background: url(../images/expertise.png);
+    @include banner-prop;
+    padding: 11.7rem 0rem 11.1rem;
+    .expertise-box {
+        max-width: 69.7rem;
+        float: right;
+        h3 {
+            font-size: 4rem;
+            line-height: 5.8rem;
+            color: #fff;
+            font-weight: bold;
+        }
+        p {
+            font-size: 1.6rem;
+            line-height: 2.6rem;
+            color: #fff;
+            font-weight: 300;
+            margin-top: 1.7rem;
+        }
+    }
+}
+/* expertise Area*/
 
 
 
@@ -1239,6 +1263,19 @@ a {
                 height: 35rem;
             }
         }
+        .expertise-area {
+            padding: 5rem 0rem 5rem;
+            .expertise-box {
+                max-width: 69.7rem;
+                h3 {
+                    font-size: 3rem;
+                    line-height: 4.8rem;
+                }
+                p {
+                    margin-top: 1rem;
+                }
+            }
+        }
 }
 
 @media screen and (max-width: 767px) {
@@ -1400,6 +1437,14 @@ a {
     .exceptional-area {
         li {
             height: auto;
+        }
+    }
+    .expertise-area {
+        .expertise-box {
+            h3 {
+                font-size: 3rem;
+                line-height: 3.8rem;
+            }
         }
     }
 }

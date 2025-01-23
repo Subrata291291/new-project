@@ -691,6 +691,7 @@ a {
 }
 
 /* Panorama Area*/
+/* exceptional Area*/
 .exceptional-area {
   background-color: var(--ss-primary);
   padding: 5rem 0rem;
@@ -719,6 +720,34 @@ a {
   font-weight: 300;
 }
 
+/* exceptional Area*/
+/* expertise Area*/
+.expertise-area {
+  background: url(../images/expertise.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 11.7rem 0rem 11.1rem;
+}
+.expertise-area .expertise-box {
+  max-width: 69.7rem;
+  float: right;
+}
+.expertise-area .expertise-box h3 {
+  font-size: 4rem;
+  line-height: 5.8rem;
+  color: #fff;
+  font-weight: bold;
+}
+.expertise-area .expertise-box p {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #fff;
+  font-weight: 300;
+  margin-top: 1.7rem;
+}
+
+/* expertise Area*/
 /*Min Width*/
 @media screen and (min-width: 992px) {
   .navbar-nav li:hover > ul.dropdown-menu {
@@ -1125,6 +1154,19 @@ a {
   .exceptional-area li {
     height: 35rem;
   }
+  .expertise-area {
+    padding: 5rem 0rem 5rem;
+  }
+  .expertise-area .expertise-box {
+    max-width: 69.7rem;
+  }
+  .expertise-area .expertise-box h3 {
+    font-size: 3rem;
+    line-height: 4.8rem;
+  }
+  .expertise-area .expertise-box p {
+    margin-top: 1rem;
+  }
 }
 @media screen and (max-width: 767px) {
   .top-bar p {
@@ -1242,6 +1284,10 @@ a {
   }
   .exceptional-area li {
     height: auto;
+  }
+  .expertise-area .expertise-box h3 {
+    font-size: 3rem;
+    line-height: 3.8rem;
   }
 }
 @media (max-width: 575px) {
