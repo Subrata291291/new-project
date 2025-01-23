@@ -163,7 +163,7 @@
         {
           breakpoint: 575,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             dots: false,
             autoplay: true,
             arrows: false,

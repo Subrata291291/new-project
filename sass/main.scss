@@ -1323,6 +1323,13 @@ a {
         .panorama_slider {
             .product-pic {
                 padding: 3rem 1rem;
+                .hover-box {
+                    li {
+                        button {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
             }
         }
     }
