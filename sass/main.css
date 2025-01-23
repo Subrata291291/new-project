@@ -386,7 +386,7 @@ a {
   background-color: #fff;
 }
 .banner-area .banner_slider .slick-dots li {
-  margin: 0rem 2rem;
+  margin: 0rem 4rem 0rem 2rem;
   height: 0;
 }
 .banner-area .banner_slider .slick-dots li button {
