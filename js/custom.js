@@ -124,10 +124,8 @@
 
      // Class slider js
      $(".panorama_slider").slick({
-      dots: false,
+      dots: true,
       infinite: true,
-      // centerMode: true,
-      // centerPadding: '80px',
       speed: 300,
       arrows: false,
       autoplay: false,
@@ -146,7 +144,7 @@
         {
           breakpoint: 991,
           settings: {
-            dots: true,
+            dots: false,
             arrows: false,
             slidesToShow: 2,
             slidesToScroll: 1,
@@ -157,7 +155,7 @@
           breakpoint: 767,
           settings: {
             slidesToShow: 2,
-            dots: true,
+            dots: false,
             arrows: false,
             slidesToScroll: 1
           }

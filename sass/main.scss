@@ -553,6 +553,31 @@ a {
         }
     }
     .panorama_slider {
+        .slick-dots {
+            bottom: -5rem;
+            text-align: left;
+            .slick-active {
+                button {
+                    background-color: var(--ss-primary);
+                }
+            }
+            li {
+                margin: 0rem 5rem 0rem 0rem;
+                height: 0;
+                button {
+                    font-size: 0;
+                    width: 50px;
+                    height: 3px;
+                    padding: 1px;
+                    background: #D5D5D5;
+                    margin: 0 auto;
+                    border-radius: 5px;
+                }
+            }
+        }
+        .slick-dots li button:before {
+            display: none;
+        }
         .slick-slide {
             opacity: 0;
             margin-right: 3.2rem;
