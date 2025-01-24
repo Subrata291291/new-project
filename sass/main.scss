@@ -791,8 +791,24 @@ a {
         background-color: var(--ss-primary);
     }
 }
+/* Who we are Area*/
 
+/* Instagram Area*/
+.instagram-feed {
+    .title-box {
+        padding: 4.4rem 0rem;
+    }
+}
+/* Instagram Area*/
 
+/* Footer Area*/
+.footer-area {
+    background-color: var(--ss-secondary);
+    padding: 6.9rem 0rem 4.1rem;
+    .footer-left {
+        width: 48rem;
+    }
+}
 
 
 

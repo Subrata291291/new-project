@@ -174,11 +174,11 @@
     });
 
      // Class slider js
-     $(".gallery_slider").slick({
+     $(".insta_slider").slick({
       dots: false,
       infinite: true,
       arrows: false,
-      autoplay: true,
+      autoplay: false,
       fade: false,
       slidesToShow: 6,
       slidesToScroll: 2,

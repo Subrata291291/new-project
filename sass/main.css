@@ -787,6 +787,22 @@ a {
   background-color: var(--ss-primary);
 }
 
+/* Who we are Area*/
+/* Instagram Area*/
+.instagram-feed .title-box {
+  padding: 4.4rem 0rem;
+}
+
+/* Instagram Area*/
+/* Footer Area*/
+.footer-area {
+  background-color: var(--ss-secondary);
+  padding: 6.9rem 0rem 4.1rem;
+}
+.footer-area .footer-left {
+  width: 48rem;
+}
+
 /*Min Width*/
 @media screen and (min-width: 768px) {
   .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
