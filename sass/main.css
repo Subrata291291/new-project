@@ -546,7 +546,7 @@ a {
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 2.5rem;
+  right: 0rem;
   width: 6.5rem;
   background-color: var(--ss-secondary);
   flex-direction: column;
@@ -748,7 +748,58 @@ a {
 }
 
 /* expertise Area*/
+/* Who we are Area*/
+.who-we-are-area .who-we-are-left {
+  background: url(../images/who-we-are.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.who-we-are-area .reliable-right {
+  background: url(../images/reliable.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.who-we-are-area .who-we-are-right, .who-we-are-area .reliable-left {
+  padding: 11.8rem 6rem 8.4rem;
+  background-color: var(--ss-secondary);
+  color: #fff;
+}
+.who-we-are-area .who-we-are-right h3, .who-we-are-area .reliable-left h3 {
+  font-size: 3rem;
+  line-height: 4.4rem;
+  margin-bottom: 2.6rem;
+  text-transform: uppercase;
+}
+.who-we-are-area .who-we-are-right p, .who-we-are-area .reliable-left p {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  max-width: 57.6rem;
+  color: #fff;
+}
+.who-we-are-area .who-we-are-right p:last-child, .who-we-are-area .reliable-left p:last-child {
+  margin-top: 2rem;
+}
+.who-we-are-area .reliable-left {
+  background-color: var(--ss-primary);
+}
+
 /*Min Width*/
+@media screen and (min-width: 768px) {
+  .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
+    position: inherit;
+  }
+  .navbar-expand-md .navbar-nav .dropdown-menu {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+  }
+}
 @media screen and (min-width: 992px) {
   .navbar-nav li:hover > ul.dropdown-menu {
     top: 100%;
@@ -870,21 +921,29 @@ a {
     font-size: 1.7rem;
   }
 }
-@media screen and (min-width: 768px) {
-  .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
-    position: inherit;
-  }
-  .navbar-expand-md .navbar-nav .dropdown-menu {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    right: 0;
-    background-color: #fff;
-  }
-}
 @media (min-width: 1600px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 1440px;
+  }
+  .who-we-are-area .who-we-are-right, .who-we-are-area .reliable-left {
+    height: inherit;
+  }
+  .who-we-are-area .who-we-are-right p, .who-we-are-area .reliable-left p {
+    max-width: inherit;
+  }
+  .panorama-area .panorama-left img {
+    max-width: 100%;
+  }
+  .panorama-area .panorama-left .panorama-text {
+    right: 0;
+  }
+}
+@media (min-width: 1700px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1620px;
+  }
+  .best-seller-area .best_product_slider .product-pic {
+    width: 100%;
   }
 }
 /*Min Width*/
@@ -930,7 +989,6 @@ a {
     border: 1px solid;
     color: #fff;
     padding: 1rem;
-    margin: 0rem 1rem;
     height: 30rem;
   }
   .exceptional-area li h3 {
@@ -938,6 +996,10 @@ a {
   }
   .exceptional-area li p {
     max-width: 18rem;
+  }
+  .who-we-are-area .who-we-are-right, .who-we-are-area .reliable-left {
+    height: inherit;
+    padding: 7rem 4rem;
   }
 }
 @media (max-width: 1199px) {
@@ -950,6 +1012,11 @@ a {
   }
   .panorama-area .panorama_slider .product-pic .hover-box li button {
     font-size: 1.3rem;
+  }
+  .who-we-are-area .who-we-are-right h3, .who-we-are-area .reliable-left h3 {
+    font-size: 2rem;
+    line-height: 3.4rem;
+    margin-bottom: 1.6rem;
   }
 }
 @media screen and (max-width: 991px) {
@@ -1143,16 +1210,21 @@ a {
   }
   .panorama-area .panorama-left .panorama-text {
     width: 4.5rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
   }
   .panorama-area .panorama_slider {
     margin-bottom: 1rem;
+  }
+  .panorama-area .panorama_slider .product-pic {
+    padding: 4rem;
   }
   .panorama-area .panorama_slider .product-pic .hover-box li button {
     font-size: 1rem;
     height: 3rem;
   }
   .exceptional-area li {
-    height: 35rem;
+    height: auto;
   }
   .expertise-area {
     padding: 5rem 0rem 5rem;
@@ -1166,6 +1238,17 @@ a {
   }
   .expertise-area .expertise-box p {
     margin-top: 1rem;
+  }
+  .who-we-are-area .who-we-are-right, .who-we-are-area .reliable-left {
+    height: inherit;
+    padding: 4rem;
+  }
+  .who-we-are-area .who-we-are-right h3, .who-we-are-area .reliable-left h3 {
+    font-size: 2rem;
+    line-height: 3.4rem;
+  }
+  .who-we-are-area .who-we-are-right p, .who-we-are-area .reliable-left p {
+    font-size: 1.4rem;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1289,10 +1372,13 @@ a {
     font-size: 3rem;
     line-height: 3.8rem;
   }
+  .who-we-are-area .who-we-are-left, .who-we-are-area .reliable-right {
+    height: 100vh;
+  }
 }
 @media (max-width: 575px) {
   .panorama-area {
-    padding: 4rem 0rem;
+    padding: 4rem 0rem 7rem;
   }
   .panorama-area .panorama-left {
     text-align: center;
@@ -1304,6 +1390,12 @@ a {
   }
   .panorama-area .panorama_slider .slick-slide {
     margin-right: 5rem;
+  }
+  .title-box ul li h2 {
+    font-size: 2rem;
+  }
+  .p-70 {
+    padding: 3rem 0rem;
   }
 }
 /*Max Width*//*# sourceMappingURL=main.css.map */

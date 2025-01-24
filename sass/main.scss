@@ -367,7 +367,6 @@ a {
         }
     }
 }
-
 /* Banner Area*/
 
 /* Category Area*/
@@ -531,7 +530,7 @@ a {
             position: absolute;
             top: 0;
             bottom: 0;
-            right: 2.5rem;
+            right: 0rem;
             width: 6.5rem;
             background-color: var(--ss-secondary);
             flex-direction: column;
@@ -755,6 +754,43 @@ a {
 }
 /* expertise Area*/
 
+/* Who we are Area*/
+.who-we-are-area {
+    .who-we-are-left {
+        background: url(../images/who-we-are.png);
+        @include banner-prop;
+        height: 100%;
+    }
+    .reliable-right {
+        background: url(../images/reliable.png);
+        @include banner-prop;
+        height: 100%;
+    }
+    .who-we-are-right, .reliable-left {
+        padding: 11.8rem 6rem 8.4rem;
+        background-color: var(--ss-secondary);
+        color: #fff;
+        // height: 56.9rem;
+        h3 {
+            font-size: 3rem;
+            line-height: 4.4rem;
+            margin-bottom: 2.6rem;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.6rem;
+            line-height: 2.6rem;
+            max-width: 57.6rem;
+            color: #fff;
+        }
+        p:last-child {
+            margin-top: 2rem;
+        }
+    }
+    .reliable-left {
+        background-color: var(--ss-primary);
+    }
+}
 
 
 
@@ -763,6 +799,19 @@ a {
 
 
 /*Min Width*/
+
+@media screen and (min-width: 768px) { 
+    .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
+        position: inherit;
+    }
+    .navbar-expand-md .navbar-nav .dropdown-menu {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+    }
+}
 @media screen and (min-width: 992px) {
     .navbar-nav li:hover > ul.dropdown-menu {
         top: 100%;
@@ -915,20 +964,6 @@ a {
         }
     }
 }
-
-@media screen and (min-width: 768px) { 
-    .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
-        position: inherit;
-    }
-    .navbar-expand-md .navbar-nav .dropdown-menu {
-        position: absolute;
-        width: 100%;
-        left: 0;
-        right: 0;
-        background-color: #fff;
-    }
-}
-
 @media (min-width: 1400px) {
     // .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     //     max-width: 1280px;
@@ -938,8 +973,36 @@ a {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1440px;
     }
+    .who-we-are-area {
+        .who-we-are-right, .reliable-left {
+            height: inherit;
+            p {
+                max-width: inherit;
+            }
+        }
+    }
+    .panorama-area {
+        .panorama-left {
+            img {
+                max-width: 100%;
+            }
+            .panorama-text {
+                right: 0;
+            }
+        }
+    }
 }
 @media (min-width: 1700px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1620px;
+    }
+    .best-seller-area {
+        .best_product_slider {
+            .product-pic {
+                width: 100%;
+            }
+        }
+    }
 }
 /*Min Width*/
 
@@ -1005,7 +1068,6 @@ a {
             border: 1px solid;
             color: #fff;
             padding: 1rem;
-            margin: 0rem 1rem;
             height: 30rem;
             h3 {
                 font-size: 1.5rem;
@@ -1013,6 +1075,12 @@ a {
             p {
                 max-width: 18rem;
             }
+        }
+    }
+    .who-we-are-area {
+        .who-we-are-right, .reliable-left {
+            height: inherit;
+            padding: 7rem 4rem;
         }
     }
 }
@@ -1040,6 +1108,15 @@ a {
                         }
                     }
                 }
+            }
+        }
+    }
+    .who-we-are-area {
+        .who-we-are-right, .reliable-left {
+            h3 {
+            font-size: 2rem;
+            line-height: 3.4rem;
+            margin-bottom: 1.6rem;
             }
         }
     }
@@ -1242,11 +1319,14 @@ a {
             .panorama-left {
                 .panorama-text {
                     width: 4.5rem;
+                    font-size: 1.2rem;
+                    line-height: 1.5;
                 }
             }
             .panorama_slider {
                 margin-bottom: 1rem;
                 .product-pic {
+                    padding: 4rem;
                     .hover-box {
                         li {
                             button {
@@ -1260,7 +1340,7 @@ a {
         }
         .exceptional-area {
             li {
-                height: 35rem;
+                height: auto;
             }
         }
         .expertise-area {
@@ -1274,6 +1354,19 @@ a {
                 p {
                     margin-top: 1rem;
                 }
+            }
+        }
+        .who-we-are-area {
+            .who-we-are-right, .reliable-left {
+                h3 {
+                    font-size: 2rem;
+                    line-height: 3.4rem;
+                }
+                p {
+                    font-size: 1.4rem;
+                }
+                height: inherit;
+                padding: 4rem;
             }
         }
 }
@@ -1447,11 +1540,16 @@ a {
             }
         }
     }
+    .who-we-are-area {
+        .who-we-are-left, .reliable-right {
+            height: 100vh;
+        }
+    }
 }
 
 @media (max-width: 575px) {
     .panorama-area {
-        padding: 4rem 0rem;
+        padding: 4rem 0rem 7rem;
         .panorama-left {
             text-align: center;
             .panorama-text {
@@ -1465,6 +1563,18 @@ a {
                 margin-right: 5rem;
             }
         }
+    }
+    .title-box{
+        ul{
+            li {
+                h2 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    .p-70 {
+        padding: 3rem 0rem;
     }
 }
 
