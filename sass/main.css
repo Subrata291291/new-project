@@ -843,7 +843,7 @@ a {
   background-color: transparent;
 }
 .footer-area .footer-left form button {
-  right: 1.1rem;
+  right: 0rem;
   top: 0;
   bottom: 0;
   border: none;
@@ -1377,6 +1377,18 @@ a {
   .who-we-are-area .who-we-are-right p, .who-we-are-area .reliable-left p {
     font-size: 1.4rem;
   }
+  .footer-area .footer-left {
+    max-width: 100%;
+  }
+  .footer-area .footer-left .form-group {
+    max-width: 35.6rem;
+  }
+  .footer-area .footer-left .submitting-text {
+    max-width: 100%;
+  }
+  .footer-area .footer-right h4 {
+    font-size: 1.4rem;
+  }
 }
 @media screen and (max-width: 767px) {
   .top-bar p {
@@ -1501,6 +1513,25 @@ a {
   }
   .who-we-are-area .who-we-are-left, .who-we-are-area .reliable-right {
     height: 100vh;
+  }
+  .footer-area .footer-left {
+    padding: 4.3rem 3rem 3.8rem 3rem;
+  }
+  .footer-area .footer-right {
+    padding: 4.3rem 3rem 3.8rem 3rem;
+  }
+  .footer-area .footer-right h4 {
+    margin-bottom: 1rem;
+  }
+  .footer-area .footer-right .product-warranty {
+    padding-top: 3rem;
+  }
+  .footer-area .footer-right .footer-menus {
+    padding-bottom: 1rem;
+  }
+  .footer-area .footer-right .footer-bottom .accept-cards {
+    text-align: center;
+    margin-top: 3rem;
   }
 }
 @media (max-width: 575px) {
