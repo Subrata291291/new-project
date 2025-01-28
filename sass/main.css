@@ -796,11 +796,122 @@ a {
 /* Instagram Area*/
 /* Footer Area*/
 .footer-area {
-  background-color: var(--ss-secondary);
-  padding: 6.9rem 0rem 4.1rem;
+  color: #fff;
+  background-color: var(--ss-primary);
 }
 .footer-area .footer-left {
-  width: 48rem;
+  max-width: 48rem;
+  background-color: var(--ss-secondary);
+  padding: 6.9rem 5.3rem 4.1rem 6rem;
+}
+.footer-area .footer-left h3 {
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+  color: #fff;
+  margin: 2.8rem 0rem 1.4rem;
+}
+.footer-area .footer-left p {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #fff;
+  max-width: 31rem;
+  font-weight: 400;
+}
+.footer-area .footer-left .submitting-text {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  max-width: 36.7rem;
+}
+.footer-area .footer-left .submitting-text a {
+  text-decoration: underline;
+  color: #fff;
+}
+.footer-area .footer-left form {
+  margin: 4.2rem 0rem 2.5rem;
+}
+.footer-area .footer-left form input {
+  position: relative;
+  width: 100%;
+  max-width: 35.6rem;
+  height: 5rem;
+  border: 1px solid #fff;
+  color: #fff;
+  outline: none;
+  padding-left: 1.3rem;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  background-color: transparent;
+}
+.footer-area .footer-left form button {
+  right: 1.1rem;
+  top: 0;
+  bottom: 0;
+  border: none;
+  width: 11rem;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  color: #fff;
+  background-color: var(--ss-primary);
+  text-transform: uppercase;
+}
+.footer-area .footer-left .copyright-text {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  margin-top: 3.4rem;
+}
+.footer-area .footer-right {
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 8.3rem 6rem 3.8rem 4.5rem;
+}
+.footer-area .footer-right h4 {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.footer-area .footer-right ul li a {
+  font-size: 1.4rem;
+  line-height: 3rem;
+  color: #fff;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.footer-area .footer-right ul li p {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  max-width: 15rem;
+}
+.footer-area .footer-right .footer-hours p {
+  max-width: 18.3rem;
+}
+.footer-area .footer-right .product-warranty {
+  padding-top: 5rem;
+}
+.footer-area .footer-right .product-warranty h6 {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  text-transform: uppercase;
+}
+.footer-area .footer-right .footer-menus {
+  padding-bottom: 4.5rem;
+}
+.footer-area .footer-right .footer-bottom {
+  border-top: 1px solid #2DA2E2;
+}
+.footer-area .footer-right .footer-bottom p {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 2.2rem;
+}
+.footer-area .footer-right .footer-bottom .accept-cards {
+  text-align: right;
+  margin-top: 6rem;
 }
 
 /*Min Width*/
